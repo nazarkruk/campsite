@@ -13,4 +13,12 @@ $(function() {
     });
 });
 
-$('#myModal').modal(options)
+
+
+$('#reserveButton').on('click', function () {
+    $('#reserveModal').modal('show');
+  })
+
+$('#loginButton').on('click', function () {
+    $('#loginModal').modal('show');
+  })
